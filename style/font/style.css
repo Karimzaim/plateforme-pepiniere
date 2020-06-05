@@ -1,0 +1,16 @@
+/****************************Style for how to appear in desktop monitor ***************************/
+   /**For body updating default font**/
+     /**Header font**/
+     @font-face {
+         font-family: MyriadPro;
+         src: url("MyriadPro.otf") format("opentype");
+     }
+     /***End of header font***/
+     /****Content font****/
+     @font-face {
+         font-family: OpenSans;
+         src: url("OpenSans.ttf") format("opentype");
+      }
+     /****End content font***/
+   /**End for body**/
+/***********************End style for how to appear in desktop monitor ***************************/

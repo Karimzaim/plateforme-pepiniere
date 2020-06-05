@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title></title>
+	<!--Meta tags-->
+	<meta charset="utf-8">
+	<meta name="author" content="">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--End meta tags-->
+
+	<!--Favicon tags-->
+	<link rel="icon" type="image/png" href="../picture/favicon/favicon.png">
+	<!--End favicon tags-->
+
+	<!--Calling script tags-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+	<script type="text/javascript" src="../script/jQuery/jQuery-mini.js"></script>
+  <script type="text/javascript" src="../script/jQuery/show-sub-menu.js"></script>
+  <script type="text/javascript" src="../script/JavaScript/form-validation.js"></script>
+
+   <!-- scripte of maps-->
+  <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+  <script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(33.24925066721705,-8.446131328755886),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(33.24925066721705,-8.446131328755886)});infowindow = new google.maps.InfoWindow({content:'<strong>houazia</strong><br>el jadida, maroc<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+  </script>
+  <!-- end scripte of maps-->
+	<!--End calling script tags-->
+
+	<!--Calling style stags-->
+  <link rel="stylesheet" type="text/css" href="../style/font/style.css">
+  <link rel="stylesheet" type="text/css" href="../style/desktop/style.css">
+  <link rel="stylesheet" type="text/css" href="../style/mobile/style.css">
+  <link rel="stylesheet" type="text/css" href="../style/icon/icon-special/style.css">
+  <link rel="stylesheet" type="text/css" href="../style/icon/submenu/style.css">
+	<!--En calling style tags-->
+</head>
+<body>
+<!--Body content DIV-->
+ <div class="content">
+  <!--Header-->
+  <header class="header">
+   <!--Nav-->
+   <div class="nav-slider">
+      <nav class="nav">
+      	<!--Menu-->
+   	 <ul class="menu">
+   	 	<li><a href="../index.html"><img src="../picture/logo/logo.png" class="logo" alt="" title="" /></a></li>
+   	 	<li class="active"><a href="../index.html"><span class="icon-home3"></span>Accueil</a></li>
+   	 	<li class="show-sub"><a href="plants/all-plants/plants.html"><span class="icon-leaf"></span>Plantes<span class="icon-sub"></span></a>
+   	 	 <!--Sub menu-->
+        <ul class="sub-menu">
+          <li class="category_1"><a href="plants/plants-categories/vivaces.html">
+           <!--Category 1-->
+              <p class="category_1_name">Plantes vivace</p>
+           <!--End of category 1--> 
+          </a></li>
+          <li class="category_2"><a href="plants/plants-categories/graminees.html">
+           <!--Category 2-->
+              <p class="category_2_name">Graminées</p>
+           <!--End of category 2--> 
+          </a></li>
+          <li class="category_3"><a href="plants/plants-categories/fougeres.html">
+           <!--Category 3-->
+              <p class="category_3_name">Fougères</p>
+           <!--End of category 3--> 
+          </a></li>
+          <li class="category_4"><a href="plants/plants-categories/bubles.html">
+           <!--Category 4-->
+              <p class="category_4_name">Bubles</p>
+           <!--End of category 4--> 
+          </a></li>
+          <li class="category_5"><a href="plants/all-plants/plants.html">
+           <!--Category 5-->
+              <p class="category_5_name">Plus ...</p>
+           <!--End of category 5--> 
+          </a></li>
+        </ul>
+   	 	 <!--End sub menu-->
+   	 	</li>
+   	 	<li class="hover"><a href="projects.html"><span class="icon-compass"></span>Nos projets</a></li>
+   	 	<li class="hover"><a href="services.html"><span class="icon-briefcase"></span>Nos services</a></li>
+      <li class="hover"><a href="contact-us.html"><span class="icon-mail3"></span>Contactez-nous ?</a></li>
+   	 </ul>
+      	<!--End menu-->
+      </nav>
+   </div>
+   <!--End Nav-->
+  </header>
+  <!--End header-->
+  <!--body content main-contact-->
+  <section class="main-contact">
+   <!--map-->
+   <article class="map">
+     <!--Contactez nous-->
+     <h1 class="Contact-us">Contactez-nous ?</h1>
+     <!--End contactez nous-->
+     <!--Localisation-->
+     <h4 class="find-us"><span class="icon-location2"></span>Trouvez nous : </h4>
+     <!--End of locatlisation-->
+     <!--Map content-->
+     <div class="map-content">
+       <!-- map -->
+        <div id='gmap_canvas' class="gmap_canvas"></div>
+        <div><small><a href="http://embedgooglemaps.com">google maps carte</a></small></div>
+        <div><small><a href="http://youtubeembedcode.com">embed youtube</a></small></div>
+     </div>
+     <!--End of Map content-->
+   </article>
+   <!--End map-->
+   <!--Proprieties-form-->
+   <article class="proprieties-form">
+     <!--Proprieties-->
+      <div class="proprieties">
+        <!--Our info-->
+        <h4 class="our-info"><span class="icon-info"></span>Nous infos : </h4>
+        <!--End of our info-->
+        <table class="proprieties-table">
+          <tr>
+            <td class="proprieties-label">
+              <span class="icon-address-book"></span><b>Adresse : </b>
+            </td>
+            <td class="Adress-">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            </td>
+          </tr>
+          <tr>
+            <td>
+               <span class="icon-phone"></span><b>Téléphone : </b>
+            </td>
+            <td>
+               +212 664 216 605 / +212 661 684 475
+            </td>
+          </tr>
+          <tr>
+            <td>
+               <span class="icon-mail2"></span><b>Email : </b>
+            </td>
+            <td class="mail-style">
+               haouzia.sarl@gmail.com
+            </td>
+          </tr>
+        </table>
+        <!--Time of work-->
+        <h4 class="time-work"><span class="icon-calendar"></span>Horaires d'ouverture : </h4>
+        <!--End of work-->
+        <!--Horaire-->
+        <table class="time-content">
+          <tr class="time-first">
+            <td class="day">Jours</td><td class="time">Horaire</td>
+          </tr>
+          <tr>
+            <td>Du Lundi au Vendredi</td><td>8h00 à 18h00</td>
+          </tr>
+          <tr class="time-background">
+            <td>Dimanche</td><td>10h00 à 18h00</td>
+          </tr>
+        </table>
+        <!--End of horaire-->
+      </div>
+     <!--End of proprieties-->
+     <!--Contact-us-form-->
+     <div class="form">
+        <!--Send us a message-->
+        <h4 class="send-message"><span class="icon-envelop"></span>Envoyez nous un message : </h4>
+        <!--End of send us a message-->
+        <!--Form-->
+        <form action="" method="post" class="send-message-form" name="contact-us-form" onsubmit="return send_us_validation()">
+          <label><b>Nom & Prénom : </b></label>
+          <input type="text" name="full-name" class="full-name" placeholder="Votre nom et Prénom">
+          <label><b>Email(<span class="required">*</span>) : </b></label>
+          <input type="email" name="email" id="email" placeholder="exemple@gmail.com" onkeypress="restrore_email()">
+          <label><b>Message(<span class="required">*</span>) : </b></label>
+          <textarea placeholder="-----------------------Votre message------------------------" name="message" id="message" onkeypress="restrore_message()"></textarea>
+          <p class="notice">(<span class="required">*</span>) : les champs sont obligatoires.</p>
+          <input type="submit" name="send" value="Envoyer">
+        </form>
+        <!--Form-->
+     </div>
+     <!--End of contact-us-form-->
+   </article>
+   <!--End Proprieties-form-->
+  </section>
+  <!--End of body content main-contact tag-->
+  <!--Footer Tags-->
+  <footer>
+    <!--Content-footer tags-->
+    <div class="content-footer">
+      <ul class="social-network">
+        <li><a href="#"><span class="icon-google"></span></a></li>
+        <li><a href="#"><span class="icon-twitter"></span></a></li>
+        <li><a href="#"><span class="icon-linkedin2"></span></a></li>
+        <li><a href="#"><span class="icon-facebook"></span></a></li>
+      </ul>
+
+      <ul class="header-navigation">
+        <li><a href="../index.html">Accueil</a></li>
+        <li><a href="plants/all-plants/plants.html">Plantes</a></li>
+        <li><a href="projects.html">Nos projets</a></li>
+        <li><a href="services.html">Nos services</a></li>
+        <li><a href="contact-us.html">Contactez-nous?</a></li>
+      </ul>
+    </div>
+    <!--End of content footer tags-->
+    <!--Author right-->
+    <div class="author-right">
+    Toutes les droits résérvés au <b>Site</b>, 2017
+    </div>
+    <!--End of Author right tags-->
+  </footer>
+  <!--End of footer tags-->
+ </div>
+<!--End Body content DIV-->
+</body>
+</html>
